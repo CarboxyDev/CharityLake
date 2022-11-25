@@ -6,6 +6,9 @@ export default function Home() {
       <Head>
         <title>CharityLake</title>
       </Head>
+      <main>
+        <div className="text-4xl text-green-400">Hello world!</div>
+      </main>
     </>
   );
 }
