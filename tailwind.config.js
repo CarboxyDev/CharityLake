@@ -4,9 +4,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["inter var", "Helvetica", "Sans-serif"],
+        inter: ["Inter", "Helvetica", "Sans-serif"],
         lato: ["Lato", "Arial", "Helvetica"],
         eudoxus: ["Eudoxus Sans", "Helvetica", "Arial"],
+      },
+      colors: {
+        blue: "#387aff",
+        gray: "#848c90",
+        dark: "#25353d",
       },
     },
   },

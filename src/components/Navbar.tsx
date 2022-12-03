@@ -3,10 +3,10 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-md">
+      <div className="navbar border-b-[#869299] bg-base-100 shadow">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn-ghost btn lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -24,41 +24,45 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow"
             >
               <li>
                 <a>Home</a>
               </li>
               <li tabIndex={0}>
-                <a className="justify-between">How it works</a>
+                <a className="justify-between">Browse</a>
               </li>
               <li>
                 <a>FAQ</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-gradient normal-case text-xl">
+          <a className="text-gradient btn-ghost btn text-xl normal-case">
             CharityLake
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal p-0 text-[#6e777c]">
+          <ul className="menu menu-horizontal p-0 text-[#869299]">
             <li>
               <Link href="/" className="">
                 Home
               </Link>
             </li>
             <li tabIndex={0}>
-              <Link href="#how-it-works" scroll={false}>
-                How it works
-              </Link>
+              <a>Browse</a>
             </li>
             <li>
               <a>FAQ</a>
             </li>
           </ul>
         </div>
-        <div className="navbar-end"></div>
+        <div className="navbar-end">
+          <Link href="#how-it-works" scroll={false}>
+            <button className="rounded-full border border-[#E5E5E5] py-2 px-6 text-[15px] normal-case text-[#869299]">
+              How it works
+            </button>
+          </Link>
+        </div>
       </div>{" "}
     </>
   );
