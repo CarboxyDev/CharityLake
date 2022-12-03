@@ -23,7 +23,7 @@ const Document = () => {
           rel="stylesheet"
         />
       </Head>
-      <body>
+      <body className="font-inter">
         <Main />
         <NextScript />
       </body>
