@@ -11,8 +11,8 @@ const Hero = () => {
           />
           <div className="flex flex-row">
             <div className="flex-1">
-              <h1 className="text-5xl text-[#25353d] font-bold font-eudoxus pb-2">
-                The decentralized way to charity
+              <h1 className="text-[40px] text-[#25353d] font-bold font-eudoxus pb-2 leading-[48px]">
+                The decentralized way to charity.
               </h1>
               <p className="py-6 text-[#969fa3] text-xl">
                 CharityLake leverages web3 technologies to provide a
