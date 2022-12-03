@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
+import Hero from "../components/Home/Hero";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
         <title>CharityLake</title>
       </Head>
       <Navbar />
+      <Hero />
+      <Footer />
     </>
   );
 }
