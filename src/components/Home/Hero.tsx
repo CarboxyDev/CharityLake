@@ -11,7 +11,7 @@ const Hero = () => {
           />
           <div className="flex flex-row">
             <div className="flex-1">
-              <h1 className="text-[40px] text-[#25353d] font-bold font-eudoxus pb-2 leading-[48px]">
+              <h1 className="text-[40px] text-dark font-bold font-eudoxus pb-2 leading-[48px]">
                 The decentralized way to charity.
               </h1>
               <p className="mt-8 mb-6 text-gray text-xl">
