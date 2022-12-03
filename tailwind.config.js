@@ -4,14 +4,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        lato: ["Lato", "Arial"],
-        eudoxus: ["Eudoxus-Sans", "Helvetica", "Arial"],
-      }
+        inter: ["inter var", "Helvetica", "Sans-serif"],
+        lato: ["Lato", "Arial", "Helvetica"],
+        eudoxus: ["Eudoxus Sans", "Helvetica", "Arial"],
+      },
     },
   },
   plugins: [require("daisyui")],
   daisyui: {
     themes: false,
-    prefix:"dui-"
-  }
+    prefix: "dui-",
+  },
 };

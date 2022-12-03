@@ -12,13 +12,14 @@ const Document = () => {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         <link rel="preconnect" href="https://stijndv.com" />
         <link
           rel="stylesheet"
           href="https://stijndv.com/fonts/Eudoxus-Sans.css"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700&display=swap"
           rel="stylesheet"
         />
       </Head>
