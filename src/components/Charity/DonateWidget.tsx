@@ -11,12 +11,6 @@ const DonateWidget = () => {
         className="overflow-y-hidden "
       ></iframe>
       <div className="pb-4"></div>
-      <input
-        type="text"
-        className="form-input rounded-lg px-4 py-3 w-full"
-        name=""
-      />
-      <div className="pb-4"></div>
     </>
   );
 };
