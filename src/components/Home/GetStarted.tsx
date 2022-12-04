@@ -6,39 +6,39 @@ const GetStarted = () => {
       <div>
         <h1
           id="get-started"
-          className="text-6xl text-gradient font-bold  text-center"
+          className="text-gradient text-center text-6xl  font-bold"
         >
           Get Started
         </h1>
-        <div className="h-[200px]"></div>
+        <div className="h-[125px]"></div>
         <div className="flex flex-row space-x-24 px-16">
-          <div className="flex-1 min-h-[200px]">
-            <h1 className="text-4xl font-bold font-eudoxus text-[#7B92B2] text-center">
+          <div className="min-h-[200px] flex-1">
+            <h1 className="text-center font-eudoxus text-4xl font-bold text-bluegray">
               For donors
             </h1>
             <div className="pt-16 pb-8">
-              <p className="text-[#777f82] text-[19px] font-inter text-center">
+              <p className="text-center font-inter text-[19px] text-gray">
                 If you like the concept of this web3 powered fundrasing
                 platform, you may look for charities to donate to. Click the
                 button below to view some charities which you might like.
               </p>
             </div>
-            <div className="flex flex-col w-full">
-              <div className="flex flex-col items-center w-full">
+            <div className="flex w-full flex-col">
+              <div className="flex w-full flex-col items-center">
                 <Link href="/charity/the-small-world">
-                  <span className="btn btn-primary font-inter text-white normal-case rounded-md">
+                  <span className="btn rounded-md border-blue bg-blue font-inter normal-case text-white">
                     Look for Charities
                   </span>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="flex-1 ßmin-h-[200px]">
-            <h1 className="text-4xl font-bold font-eudoxus text-[#7B92B2] text-center">
+          <div className="ßmin-h-[200px] flex-1">
+            <h1 className="text-center font-eudoxus text-4xl font-bold text-bluegray">
               For beneficiaries
             </h1>
             <div className="pt-16 pb-8">
-              <p className="text-[#777f82] text-[19px] font-inter text-center">
+              <p className="text-center font-inter text-[19px] text-gray">
                 We know that life can sometimes be hard for a lot of people. We
                 make sure that anyone can recieve donations for support. A bank
                 account is not needed to receive donations on this platform
@@ -46,9 +46,9 @@ const GetStarted = () => {
                 device.
               </p>
             </div>
-            <div className="flex flex-col w-full">
-              <div className="flex flex-col items-center w-full">
-                <span className="btn btn-primary font-inter text-white normal-case rounded-md">
+            <div className="flex w-full flex-col">
+              <div className="flex w-full flex-col items-center">
+                <span className="btn rounded-md border-blue bg-blue font-inter normal-case text-white">
                   Become a Beneficiary
                 </span>
               </div>

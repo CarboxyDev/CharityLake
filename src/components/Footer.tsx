@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="footer footer-center p-10 bg-primary text-primary-content">
+      <footer className="footer footer-center p-10 bg-blue text-primary-content">
         <div>
           <svg
             className="w-12 h-12"
@@ -21,7 +21,7 @@ const Footer = () => {
             <span className="text-xl">CharityLake</span>
             <br />
           </p>
-          <span>The decentralized way to charity</span>
+          <span>The decentralized way to charity.</span>
           <p className="pb-2">Copyright © 2022 - All right reserved</p>
         </div>
       </footer>

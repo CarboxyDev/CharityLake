@@ -11,10 +11,10 @@ const Hero = () => {
           />
           <div className="flex flex-row">
             <div className="flex-1">
-              <h1 className="text-[40px] text-dark font-bold font-eudoxus pb-2 leading-[48px]">
+              <h1 className="text-[42px] text-dark font-bold font-eudoxus pb-2 leading-[48px]">
                 The decentralized way to charity.
               </h1>
-              <p className="mt-8 mb-6 text-gray text-xl">
+              <p className="mt-6 mb-10 text-gray text-xl">
                 CharityLake leverages web3 technologies to provide a
                 decentralized way of fundraising for charities around the globe.
               </p>

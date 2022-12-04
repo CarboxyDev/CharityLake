@@ -3,13 +3,13 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar border-b-[#869299] bg-base-100 shadow">
+      <div className="navbar border-b-[#869299] bg-base-100 shadow md:px-20">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn-ghost btn lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 text-gray"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -37,7 +37,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="text-gradient btn-ghost btn text-xl normal-case">
+          <a className="text-gradient font-lato font-bold text-xl normal-case">
             CharityLake
           </a>
         </div>
