@@ -3,7 +3,7 @@ import Link from "next/link";
 const CharityCard = (props) => {
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-[#fbfbfb] shadow-xl">
         <figure>
           <img src={props.image} alt={props.charity} />
         </figure>
@@ -11,9 +11,14 @@ const CharityCard = (props) => {
           <h2 className="card-title text-dark">{props.charity}</h2>
           <div className="pb-2"></div>
           <p>{props.mission}</p>
-          <div className="pb-2"></div>
+          <div className="pb-4"></div>
           <div className="card-actions justify-end">
-            <Link href={props.link} className="bg-blue border-blue btn">Learn More</Link>
+            <Link
+              href={props.link}
+              className="btn border-blue bg-blue normal-case"
+            >
+              Learn More
+            </Link>
           </div>
         </div>
       </div>

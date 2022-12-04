@@ -25,9 +25,9 @@ const GetStarted = () => {
               </div>
               <div className="flex w-full flex-col">
                 <div className="flex w-full flex-col items-center">
-                  <Link href="/charity/the-small-world">
+                  <Link href="/browse">
                     <button className="btn rounded-md border-blue bg-blue font-inter normal-case text-white">
-                      Look for Charities
+                      Browse Charities
                     </button>
                   </Link>
                 </div>

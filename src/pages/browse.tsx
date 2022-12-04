@@ -21,10 +21,10 @@ const Browse = () => {
             link="/charity/the-small-world"
           />
           <CharityCard
-            image="/the-small-world.webp"
-            charity="The Small World"
-            mission="The Small World's mission is to empower girls, women and communities in the Himalayan regions of Nepal."
-            link="/charity/the-small-world"
+            image="/newyork-annual-campaign.webp"
+            charity="New York Annual Campaign 2023"
+            mission="Our mission is to eradicate world Hunger. For now, we're starting small from New York."
+            link="/charity/newyork-annual-campaign"
           />
           <CharityCard
             image="/the-small-world.webp"
