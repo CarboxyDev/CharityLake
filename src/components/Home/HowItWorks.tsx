@@ -17,7 +17,7 @@ const HowItWorks = () => {
         <div className="h-[75px]"></div>
         <div className="mx-40 flex flex-row space-x-14 text-dark">
           <div className="flex-1">
-            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue">
+            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue-2">
               <span className="font-inter text-xl font-bold text-white">1</span>
             </div>
             <div className="pt-8">
@@ -31,7 +31,7 @@ const HowItWorks = () => {
             </div>
           </div>
           <div className="flex-1">
-            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-[#7B92B2]">
+            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue-2">
               <span className="font-inter text-xl font-bold text-white">2</span>
             </div>
             <div className="pt-8">
@@ -45,7 +45,7 @@ const HowItWorks = () => {
             </div>
           </div>
           <div className="flex-1">
-            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue">
+            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue-2">
               <span className="font-inter text-xl font-bold text-white">3</span>
             </div>
             <div className="pt-8">
@@ -69,7 +69,7 @@ const HowItWorks = () => {
         <div className="h-[75px]"></div>
         <div className="mx-40 flex flex-row space-x-14">
           <div className="flex-1">
-            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue">
+            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue-2">
               <span className="font-inter text-xl font-bold text-white">1</span>
             </div>
             <div className="pt-8">
@@ -82,7 +82,7 @@ const HowItWorks = () => {
             </div>
           </div>
           <div className="flex-1">
-            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-[#7B92B2]">
+            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue-2">
               <span className="font-inter text-xl font-bold text-white">2</span>
             </div>
             <div className="pt-8">
@@ -96,7 +96,7 @@ const HowItWorks = () => {
             </div>
           </div>
           <div className="flex-1">
-            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue">
+            <div className="btn-circle flex h-12 w-12 items-center justify-center bg-blue-2">
               <span className="font-inter text-xl font-bold text-white">3</span>
             </div>
             <div className="pt-8">
@@ -110,7 +110,7 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <div className="h-[250px]"></div>
+        <div className="h-[200px]"></div>
       </div>
     </>
   );

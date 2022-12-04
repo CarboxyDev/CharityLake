@@ -1,7 +1,7 @@
-const charity = () => {
+const Charity = () => {
 
 };
 
 
 
-export default charity;
+export default Charity;

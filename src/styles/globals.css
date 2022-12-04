@@ -20,10 +20,10 @@ a {
 }
 
 .text-gradient {
-  background: #387aff;
-  background: -webkit-linear-gradient(to right, #387aff 39%, #81c3fd 91%);
-  background: -moz-linear-gradient(to right, #387aff 39%, #81c3fd 91%);
-  background: linear-gradient(to right, #387aff 39%, #81c3fd 91%);
+  background: #4e89fd;
+  background: -webkit-linear-gradient(to right, #4e89fd 39%, #81c3fd 91%);
+  background: -moz-linear-gradient(to right, #4e89fd 39%, #81c3fd 91%);
+  background: linear-gradient(to right, #4e89fd 39%, #81c3fd 91%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

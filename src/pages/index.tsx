@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import GetStarted from "../components/Home/GetStarted";
 import Hero from "../components/Home/Hero";
 import HowItWorks from "../components/Home/HowItWorks";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarHome";
 
 export default function Home() {
   return (

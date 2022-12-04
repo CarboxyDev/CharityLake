@@ -57,6 +57,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          <Link href="#how-it-works" scroll={false}>
+            <button className="rounded-full border border-[#E5E5E5] py-2 px-6 text-[15px] normal-case text-[#869299]">
+              How it works
+            </button>
+          </Link>
         </div>
       </div>{" "}
     </>
