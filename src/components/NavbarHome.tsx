@@ -37,7 +37,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="text-gradient font-lato font-bold text-xl normal-case">
+          <a className="text-gradient font-lato text-xl font-bold normal-case">
             CharityLake
           </a>
         </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li tabIndex={0}>
-              <a>Browse</a>
+              <Link href="/browse">Browse</Link>
             </li>
             <li>
               <a>FAQ</a>

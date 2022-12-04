@@ -49,7 +49,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li tabIndex={0}>
-              <a>Browse</a>
+              <Link href="/browse">Browse</Link>
             </li>
             <li>
               <a>FAQ</a>
