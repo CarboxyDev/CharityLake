@@ -1,7 +1,7 @@
 const Powered = () => {
   return (
     <>
-      <div className="min-h-[300px] bg-blue powred flex items-center justify-center">
+      <div className="min-h-[300px] bg-blue powered flex items-center justify-center">
         <img src="/polygon.png" alt="powered-by" className="w-[472px] h-[183px]"/>
       </div>
     </>
