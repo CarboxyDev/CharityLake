@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <Link href="#how-it-works" scroll={false}>
-            <button className="rounded-full border border-[#E5E5E5] py-2 px-6 text-[15px] normal-case text-[#869299]">
+            <button className="rounded-full border border-[#E5E5E5] py-2 px-6 text-[15px] normal-case text-[#869299] hover:bg-blue hover:text-white">
               How it works
             </button>
           </Link>
