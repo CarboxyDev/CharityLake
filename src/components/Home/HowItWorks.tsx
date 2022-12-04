@@ -110,7 +110,6 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <div className="h-[200px]"></div>
       </div>
     </>
   );

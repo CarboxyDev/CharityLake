@@ -7,7 +7,7 @@ const CharityCard = (props) => {
         <figure>
           <img src={props.image} alt={props.charity} />
         </figure>
-        <div className="card-body">
+        <div className="card-body text-[#646b6e]">
           <h2 className="card-title text-dark">{props.charity}</h2>
           <div className="pb-2"></div>
           <p>{props.mission}</p>
