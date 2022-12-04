@@ -3,7 +3,7 @@ import Link from "next/link";
 const CharityCard = (props) => {
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl ">
+      <div className="card w-96 bg-base-100 shadow-xl">
         <figure>
           <img src={props.image} alt={props.charity} />
         </figure>

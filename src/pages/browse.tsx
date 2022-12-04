@@ -13,13 +13,7 @@ const Browse = () => {
           </h1>
         </div>
         <div className="pt-16"></div>
-        <div className="flex flex-row flex-wrap space-x-10 space-x-10">
-          <CharityCard
-            image="/the-small-world.webp"
-            charity="The Small World"
-            mission="The Small World's mission is to empower girls, women and communities in the Himalayan regions of Nepal."
-            link="/charity/the-small-world"
-          />
+        <div className="flex flex-row flex-wrap space-x-10">
           <CharityCard
             image="/the-small-world.webp"
             charity="The Small World"
