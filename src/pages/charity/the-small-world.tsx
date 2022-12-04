@@ -96,6 +96,11 @@ const CharityTheSmallWorld = () => {
                   amount="15"
                   message="I am glad to donate to this amazing charity. I heard about them in my local television program and I must say that I'm impressed by their mission. More power to you!"
                 ></DonationMessage>
+                <DonationMessage
+                  donor="John Melon"
+                  amount="30"
+                  message="I hope my humble donation can help make a difference in this world. I'm looking forward to sharing this charity with my friends as well."
+                ></DonationMessage>
               </div>
             </div>
           </div>
@@ -127,7 +132,7 @@ const CharityTheSmallWorld = () => {
             <div className="pb-16"></div>
             <Link href="/charity/the-small-world/donate">
               <span className="btn w-full rounded-md border-blue bg-blue text-white hover:btn-primary">
-                Donate ETH
+                Donate VIA POLYGON
               </span>
             </Link>
             <div className="pb-4"></div>

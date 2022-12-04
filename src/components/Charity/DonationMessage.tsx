@@ -5,7 +5,7 @@ const DonationComment = (props) => {
 
   return (
     <>
-      <div className="flex min-h-[150px] flex-col rounded-md shadow">
+      <div className="bg-[#fafafa] flex min-h-[150px] flex-col rounded-md shadow">
         <div className="top flex flex-1 flex-row items-center pt-6">
           <div className="icon ml-4">
             <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#E3ECFF]">
