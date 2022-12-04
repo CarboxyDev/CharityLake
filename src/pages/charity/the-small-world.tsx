@@ -3,9 +3,12 @@ import Footer from "../../components/Footer";
 import Link from "next/link";
 import LatestDonationCompact from "../../components/Charity/LatestDonationCompact";
 import DonationMessage from "../../components/Charity/DonationMessage";
-
+import DonateWidget from "../../components/Charity/DonateWidget";
+import { useState } from "react";
 
 const CharityTheSmallWorld = () => {
+  let [donateWidget, setDonateWidget] = useState(false);
+
   return (
     <div>
       <Navbar></Navbar>
@@ -131,11 +134,13 @@ const CharityTheSmallWorld = () => {
               7 donations raised
             </span>
             <div className="pb-16"></div>
-            <Link href="/charity/the-small-world/donate">
-              <span className="btn w-full rounded-md border-blue bg-blue text-white hover:btn-primary">
-                Donate
-              </span>
-            </Link>
+            <button
+              onClick={() => setDonateWidget(!donateWidget)}
+              className="btn w-full rounded-md border-blue bg-blue text-white hover:btn-primary"
+            >
+              Donate
+            </button>
+            {donateWidget && <DonateWidget />}
             <div className="pb-4"></div>
             <span className="btn w-full rounded-md border-bluegray bg-bluegray text-white">
               Share Charity
