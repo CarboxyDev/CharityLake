@@ -133,7 +133,7 @@ const CharityTheSmallWorld = () => {
             <div className="pb-16"></div>
             <Link href="/charity/the-small-world/donate">
               <span className="btn w-full rounded-md border-blue bg-blue text-white hover:btn-primary">
-                Donate VIA POLYGON
+                Donate
               </span>
             </Link>
             <div className="pb-4"></div>

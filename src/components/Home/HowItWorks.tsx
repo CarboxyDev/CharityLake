@@ -90,7 +90,7 @@ const HowItWorks = () => {
                 Provide a statement
               </h1>
               <p className="pt-4 text-[#737b7f]">
-                The Beneficiary should provide a charity statement which would
+                The Beneficiary should provide a charity mission which would
                 help donors decide if the charity is worth donating to.
               </p>
             </div>
@@ -105,7 +105,7 @@ const HowItWorks = () => {
               </h1>
               <p className="pt-4 text-[#737b7f]">
                 The Beneficiary obtains instant payments to their crypto wallets
-                without any hassle. Powered by ETH
+                without any hassle. Powered by ETH and Polygon
               </p>
             </div>
           </div>
