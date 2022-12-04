@@ -4,6 +4,7 @@ import Link from "next/link";
 import LatestDonationCompact from "../../components/Charity/LatestDonationCompact";
 import DonationMessage from "../../components/Charity/DonationMessage";
 
+
 const CharityTheSmallWorld = () => {
   return (
     <div>
