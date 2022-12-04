@@ -33,13 +33,13 @@ const CharityTheSmallWorld = () => {
               </p>
               <br />
               <p>
-                The Small World’s mission is to empower girls, women and
+                The Small World's mission is to empower girls, women and
                 communities in the Himalayan regions of Nepal. The organization
                 supports girls from small, remote communities to provide girls
                 resources and support they need to complete their education.
                 Every year, the Girls Dorm for Higher Education in Salleri,
                 Nepal serves 40 girls in grades 11 and 12. The girls come from
-                some of the most remote villages in Nepal’s Solukhumbu region
+                some of the most remote villages in Nepal's Solukhumbu region
                 and travel to reside at the dorm to access these grade levels of
                 school, which are unavailable in their home villages. In the
                 areas we work, up to seven out of 10 girls drop out of school
