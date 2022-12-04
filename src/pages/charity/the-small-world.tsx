@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 import LatestDonationCompact from "../../components/Charity/LatestDonationCompact";
+import DonationMessage from "../../components/Charity/DonationMessage";
 
 const CharityTheSmallWorld = () => {
   return (
@@ -12,7 +13,7 @@ const CharityTheSmallWorld = () => {
         <div className="basis-2/3">
           <div className="h-full w-full px-2 py-4">
             <h1 className="pb-8 font-eudoxus text-4xl font-bold text-[#25353d]">
-              <span className="text-gradient">Charity:</span> The Small World
+              <span className="text-gradient"></span> The Small World
             </h1>
             <img
               src="/the-small-world.webp"
@@ -20,7 +21,7 @@ const CharityTheSmallWorld = () => {
               className="w-full rounded-md"
             />
             <div className="h-[50px]"></div>
-            <span className="font-eudoxus text-3xl font-bold text-[#25353d]">
+            <span className="text-gradient font-eudoxus text-3xl font-bold text-[#25353d]">
               Our Mission
             </span>
             <div className="h-[35px]"></div>
@@ -79,14 +80,23 @@ const CharityTheSmallWorld = () => {
                 nations out of poverty.
               </p>
             </div>
-          </div>
-          <div>
-            <span className="font-eudoxus text-3xl font-bold text-[#25353d]">
-              Comments from the Donors
-            </span>
-            <div className="pb-8"></div>
-            <div>
-              
+            <div className="pt-16">
+              <span className="text-gradient font-eudoxus text-3xl font-bold">
+                Messages from the Donors
+              </span>
+              <div className="pb-16"></div>
+              <div className="flex flex-col space-y-6">
+                <DonationMessage
+                  donor="Richard Brooks"
+                  amount="10"
+                  message="I like this charity's mission. The whole world should aim for better access to education for women. God bless."
+                ></DonationMessage>
+                <DonationMessage
+                  donor="Steve Garret"
+                  amount="15"
+                  message="I am glad to donate to this amazing charity. I heard about them in my local television program and I must say that I'm impressed by their mission. More power to you!"
+                ></DonationMessage>
+              </div>
             </div>
           </div>
           <div className="h-[40px]"></div>
@@ -98,14 +108,15 @@ const CharityTheSmallWorld = () => {
           {" "}
           <div className="h-full w-full px-6 py-8 font-inter">
             <span className="font-lato">
-              <span className="text-xl text-[#25353d]">$1,250</span>&nbsp;&nbsp;
+              <span className="text-gradient text-xl font-bold">$1,250</span>
+              &nbsp;&nbsp;
               <span className="text-sm text-[#7d8386]">
                 raised of $5,000 goal
               </span>
             </span>
             <div className="pt-2"></div>
             <progress
-              className="progress progress-success"
+              className="progress progress-success bg-[#E6F6EF]"
               value="25"
               max="100"
             ></progress>
