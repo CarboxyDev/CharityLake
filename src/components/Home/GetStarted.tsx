@@ -18,7 +18,7 @@ const GetStarted = () => {
               </h1>
               <div className="pt-16 pb-8">
                 <p className="text-center font-inter text-[19px] text-gray">
-                  If you like the concept of this web3 powered fundrasing
+                  If you like the concept of this web3 powered fundraising
                   platform, you may look for charities to donate to. Click the
                   button below to view some charities which you might like.
                 </p>
@@ -39,7 +39,7 @@ const GetStarted = () => {
               </h1>
               <div className="pt-16 pb-8">
                 <p className="text-center font-inter text-[19px] text-gray">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, veritatis. Minus nisi voluptate odio rerum sapiente placeat doloribus? In cupiditate incidunt qui nulla sint reprehenderit!
+                  Become a beneficiary to receive donations from people around the globe. A bank account is not required as well. You may accept donations in ETH or MATIC.
                 </p>
               </div>
               <div className="flex w-full flex-col">
