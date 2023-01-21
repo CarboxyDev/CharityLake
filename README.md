@@ -1,6 +1,6 @@
 # CharityLake
 
-The decentralized way to charity
+The decentralized way to charity. Currently in development.
 
 ---
 
@@ -15,7 +15,5 @@ The decentralized way to charity
 - Tailwind
 
 - Typescript
-
-- Replit for deployment
 
 - Polygon for payments
